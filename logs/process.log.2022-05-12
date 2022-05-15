@@ -1,0 +1,28 @@
+2022-05-01 16:02:50,851 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.222.38.122:5000 (Press CTRL+C to quit)
+2022-05-01 16:02:50,861 - werkzeug - INFO -  * Restarting with stat
+2022-05-01 16:02:52,246 - werkzeug - WARNING -  * Debugger is active!
+2022-05-01 16:02:52,251 - werkzeug - INFO -  * Debugger PIN: 578-607-675
+2022-05-01 16:04:00,616 - werkzeug - INFO - 10.222.38.122 - - [01/May/2022 16:04:00] "GET / HTTP/1.1" 200 -
+2022-05-01 16:04:01,138 - werkzeug - INFO - 10.222.38.122 - - [01/May/2022 16:04:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2022-05-01 16:23:33,190 - werkzeug - INFO - 127.0.0.1 - - [01/May/2022 16:23:33] "GET / HTTP/1.1" 200 -
+2022-05-01 16:23:50,223 - app - DEBUG - repos/tes
+2022-05-01 16:23:50,287 - werkzeug - INFO - 127.0.0.1 - - [01/May/2022 16:23:50] "GET /tes/info/refs?service=git-upload-pack HTTP/1.1" 200 -
+2022-05-01 16:23:50,984 - werkzeug - INFO - 127.0.0.1 - - [01/May/2022 16:23:50] "POST /tes/git-upload-pack HTTP/1.1" 200 -
+2022-05-01 16:25:08,390 - app - DEBUG - repos/tes
+2022-05-01 16:25:08,413 - werkzeug - INFO - 127.0.0.1 - - [01/May/2022 16:25:08] "GET /tes/info/refs?service=git-receive-pack HTTP/1.1" 200 -
+2022-05-01 16:25:09,053 - werkzeug - INFO - 127.0.0.1 - - [01/May/2022 16:25:09] "POST /tes/git-receive-pack HTTP/1.1" 200 -
+2022-05-01 16:29:26,824 - app - DEBUG - repos/tes
+2022-05-01 16:29:26,866 - werkzeug - INFO - 127.0.0.1 - - [01/May/2022 16:29:26] "GET /tes/info/refs?service=git-upload-pack HTTP/1.1" 200 -
+2022-05-01 16:29:27,618 - werkzeug - INFO - 127.0.0.1 - - [01/May/2022 16:29:27] "POST /tes/git-upload-pack HTTP/1.1" 200 -
+2022-05-01 16:29:58,542 - app - DEBUG - repos/tes
+2022-05-01 16:29:58,579 - werkzeug - INFO - 127.0.0.1 - - [01/May/2022 16:29:58] "GET /tes/info/refs?service=git-receive-pack HTTP/1.1" 200 -
+2022-05-01 16:29:59,452 - werkzeug - INFO - 127.0.0.1 - - [01/May/2022 16:29:59] "POST /tes/git-receive-pack HTTP/1.1" 200 -
+2022-05-01 16:30:07,812 - app - DEBUG - repos/tes
+2022-05-01 16:30:07,834 - werkzeug - INFO - 127.0.0.1 - - [01/May/2022 16:30:07] "GET /tes/info/refs?service=git-upload-pack HTTP/1.1" 200 -
+2022-05-01 16:30:08,428 - werkzeug - INFO - 127.0.0.1 - - [01/May/2022 16:30:08] "POST /tes/git-upload-pack HTTP/1.1" 200 -
+2022-05-01 16:30:33,150 - app - DEBUG - repos/tes
+2022-05-01 16:30:33,187 - werkzeug - INFO - 127.0.0.1 - - [01/May/2022 16:30:33] "GET /tes/info/refs?service=git-receive-pack HTTP/1.1" 200 -
+2022-05-01 16:30:33,919 - werkzeug - INFO - 127.0.0.1 - - [01/May/2022 16:30:33] "POST /tes/git-receive-pack HTTP/1.1" 200 -
