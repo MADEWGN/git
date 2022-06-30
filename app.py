@@ -1,8 +1,4 @@
-# This is an example Git server. http://blog.nerds.kr/post/106956608369/implementing-a-git-http-server-in-python
-# http://stewartjpark.com/2015/01/02/implementing-a-git-http-server-in-python.html
-# Stewart Park <stewartpark92@gmail.com>
-# @see
-#  https://gist.github.com/stewartpark/1b079dc0481c6213def9
+from git import *
 import os
 import gzip
 import configparser
@@ -35,11 +31,21 @@ def index():
 
 @app.route("/<string:Repo>", methods=['GET', 'POST', 'DELETE'])
 def repo(Repo):
-
+    repo = Git("repos/"+Repo)
     #if request.method == 'GET':
     # show file list on repos/rRrpo
-    a = os.listdir("repos/" + Repo)
-    return str(a)
+    p = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
+
+    return p
+
+@app.route("/<string:Repo>/<string:file>", methods=['GET', 'POST', 'DELETE'])
+def repo_file(Repo, file):
+    repo = Git("repos/"+Repo)
+    #if request.method == 'GET':
+    # show file list on repos/rRrpo
+    p = repo.execute(["git", "show", "master:"+file])
+
+    return p
 
 
 

@@ -1,22 +1,22 @@
-2022-05-15 17:40:01,878 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+2022-06-30 07:20:37,606 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
    WARNING: This is a development server. Do not use it in a production deployment.
  * Running on http://127.0.0.1:5000
- * Running on http://10.171.160.195:5000 (Press CTRL+C to quit)
-2022-05-15 17:40:01,898 - werkzeug - INFO -  * Restarting with stat
-2022-05-15 17:40:03,583 - werkzeug - WARNING -  * Debugger is active!
-2022-05-15 17:40:03,599 - werkzeug - INFO -  * Debugger PIN: 231-996-095
-2022-05-15 17:47:23,926 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+ * Running on http://10.5.46.198:5000 (Press CTRL+C to quit)
+2022-06-30 07:20:37,616 - werkzeug - INFO -  * Restarting with stat
+2022-06-30 07:20:39,465 - werkzeug - WARNING -  * Debugger is active!
+2022-06-30 07:20:39,498 - werkzeug - INFO -  * Debugger PIN: 311-610-154
+2022-06-30 07:21:35,122 - werkzeug - INFO - 127.0.0.1 - - [30/Jun/2022 07:21:35] "GET /new/halo HTTP/1.1" 200 -
+2022-06-30 07:22:10,764 - app - DEBUG - repos/halo
+2022-06-30 07:22:10,784 - werkzeug - INFO - 127.0.0.1 - - [30/Jun/2022 07:22:10] "GET /halo/info/refs?service=git-receive-pack HTTP/1.1" 200 -
+2022-06-30 07:22:10,944 - werkzeug - INFO - 127.0.0.1 - - [30/Jun/2022 07:22:10] "POST /halo/git-receive-pack HTTP/1.1" 200 -
+2022-06-30 07:22:30,245 - werkzeug - INFO - 127.0.0.1 - - [30/Jun/2022 07:22:30] "GET /halo HTTP/1.1" 200 -
+2022-06-30 07:22:35,882 - werkzeug - INFO - 127.0.0.1 - - [30/Jun/2022 07:22:35] "GET /halo HTTP/1.1" 200 -
+2022-06-30 07:22:37,169 - werkzeug - INFO - 127.0.0.1 - - [30/Jun/2022 07:22:37] "GET /favicon.ico HTTP/1.1" 200 -
+2022-06-30 08:48:59,158 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
    WARNING: This is a development server. Do not use it in a production deployment.
  * Running on http://127.0.0.1:5000
- * Running on http://10.171.160.195:5000 (Press CTRL+C to quit)
-2022-05-15 17:47:23,936 - werkzeug - INFO -  * Restarting with stat
-2022-05-15 17:47:25,729 - werkzeug - WARNING -  * Debugger is active!
-2022-05-15 17:47:25,740 - werkzeug - INFO -  * Debugger PIN: 138-376-404
-2022-05-15 17:47:33,457 - werkzeug - INFO - 10.171.160.195 - - [15/May/2022 17:47:33] "GET / HTTP/1.1" 200 -
-2022-05-15 18:31:13,905 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
-   WARNING: This is a development server. Do not use it in a production deployment.
- * Running on http://127.0.0.1:5000
- * Running on http://10.171.178.61:5000 (Press CTRL+C to quit)
-2022-05-15 18:31:13,914 - werkzeug - INFO -  * Restarting with stat
-2022-05-15 18:31:15,347 - werkzeug - WARNING -  * Debugger is active!
-2022-05-15 18:31:15,354 - werkzeug - INFO -  * Debugger PIN: 126-847-332
+ * Running on http://10.16.7.57:5000 (Press CTRL+C to quit)
+2022-06-30 08:48:59,165 - werkzeug - INFO -  * Restarting with stat
+2022-06-30 08:49:00,966 - werkzeug - WARNING -  * Debugger is active!
+2022-06-30 08:49:00,978 - werkzeug - INFO -  * Debugger PIN: 529-664-287
+2022-06-30 08:49:21,997 - werkzeug - INFO - 127.0.0.1 - - [30/Jun/2022 08:49:21] "GET /halo/p.txt HTTP/1.1" 200 -

@@ -1,0 +1,22 @@
+2022-05-15 17:40:01,878 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.171.160.195:5000 (Press CTRL+C to quit)
+2022-05-15 17:40:01,898 - werkzeug - INFO -  * Restarting with stat
+2022-05-15 17:40:03,583 - werkzeug - WARNING -  * Debugger is active!
+2022-05-15 17:40:03,599 - werkzeug - INFO -  * Debugger PIN: 231-996-095
+2022-05-15 17:47:23,926 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.171.160.195:5000 (Press CTRL+C to quit)
+2022-05-15 17:47:23,936 - werkzeug - INFO -  * Restarting with stat
+2022-05-15 17:47:25,729 - werkzeug - WARNING -  * Debugger is active!
+2022-05-15 17:47:25,740 - werkzeug - INFO -  * Debugger PIN: 138-376-404
+2022-05-15 17:47:33,457 - werkzeug - INFO - 10.171.160.195 - - [15/May/2022 17:47:33] "GET / HTTP/1.1" 200 -
+2022-05-15 18:31:13,905 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.171.178.61:5000 (Press CTRL+C to quit)
+2022-05-15 18:31:13,914 - werkzeug - INFO -  * Restarting with stat
+2022-05-15 18:31:15,347 - werkzeug - WARNING -  * Debugger is active!
+2022-05-15 18:31:15,354 - werkzeug - INFO -  * Debugger PIN: 126-847-332
